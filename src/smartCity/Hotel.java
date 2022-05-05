@@ -14,10 +14,10 @@ public class Hotel {
         this.evaluation = evaluation;
     }
 
-    void incrementEvaluation () {
-        if (this.recommendation  == 100) {
-                this.evaluation ++;
-                this.recommendation =0;
+    void incrementEvaluation() {
+        if (this.recommendation == 100) {
+            this.evaluation++;
+            this.recommendation = 0;
         }
     }
 }
