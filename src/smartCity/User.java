@@ -54,6 +54,6 @@ public class User {
                 break;
             }
         } while (true);
-        read.close();
+       // read.close();
     }
 }
