@@ -8,6 +8,7 @@ public class Main {
     static ArrayList<Hotel> registeredHotels = new ArrayList<>();
 
     public static void main(String[] args) throws IOException {
+        int userChoice;
 
         System.out.print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
         System.out.print(" Welcome to Smart City\n");
@@ -16,9 +17,9 @@ public class Main {
 
         do {
             System.out.println("\nSelect user type: ");
-            System.out.println("1. Admin\n2. User \n3. Exit\n\n");
+            System.out.println("1. Admin\n2. User\n3. Exit\n\n");
 
-            int userChoice = read.nextInt();
+            userChoice = read.nextInt();
 
             if (userChoice == 1) {
                 System.out.print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
@@ -37,8 +38,9 @@ public class Main {
             } else {
                 break;
             }
-
+          //1
+            // read.close();
         } while (true);
-        read.close();
+
     }
 }
