@@ -11,7 +11,7 @@ public class Main {
         int userChoice;
 
         System.out.print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
-        System.out.print(" Welcome to Smart City\n");
+        System.out.print("   Welcome To SmartCity\n");
         System.out.print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
         Scanner read = new Scanner(System.in);
 
@@ -23,7 +23,7 @@ public class Main {
 
             if (userChoice == 1) {
                 System.out.print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
-                System.out.print("Welcome Admin\n");
+                System.out.print("    Welcome Admin\n");
                 System.out.print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
                 Admin.adminSubroutine(registeredHotels);
                 System.out.println("\n\nRegistered Hotels are: \n");
@@ -32,13 +32,13 @@ public class Main {
                 }
             } else if (userChoice == 2) {
                 System.out.print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
-                System.out.print("WELCOME TRUSTED USER\n");
+                System.out.print("     WELCOME TRUSTED USER\n");
                 System.out.print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
                 User.userSubroutine();
             } else {
                 break;
             }
-          //1
+            // 1
             // read.close();
         } while (true);
 
