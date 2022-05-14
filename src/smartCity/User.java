@@ -25,7 +25,7 @@ public class User {
                 }
             } else if (choice == 2) {
                 read.nextLine();
-                System.out.print("Enter search town: ");
+                System.out.print("Enter town to search: ");
                 String town = read.nextLine();
                 int count = 0;
                 for (int n = 0; n < Main.registeredHotels.size(); n++) {
@@ -44,7 +44,7 @@ public class User {
                 for (int n = 0; n < Main.registeredHotels.size(); n++) {
                     System.out.println(n + 1 + ". " + Main.registeredHotels.get(n).name);
                 }
-                System.out.print("Enter hotel to recommend: ");
+                System.out.print("Enter your recommendation: ");
                 String name = read.nextLine();
                 for (int n = 0; n < Main.registeredHotels.size(); n++) {
                     if (Main.registeredHotels.get(n).name.equals(name))
@@ -54,6 +54,6 @@ public class User {
                 break;
             }
         } while (true);
-       // read.close();
+        // read.close();
     }
 }
