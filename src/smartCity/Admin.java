@@ -19,7 +19,7 @@ public class Admin extends User {
         System.out.print("Enter new hotel evaluation: ");
         int evaluation = read.nextInt();
 
-       // read.close();
+        // read.close();
 
         return new Hotel(name, price, town, evaluation);
 
@@ -42,12 +42,12 @@ public class Admin extends User {
                 n -= 1;
             } while (n > 0);
 
-            //read.close();
+            // read.close();
         }
 
         else if (newChoice == 2) {
             System.out.print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
-            System.out.print("YOU'RE NOW IN USER MODE\n");
+            System.out.print("     YOU'RE NOW IN USER MODE\n");
             System.out.print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
             User.userSubroutine();
         }
