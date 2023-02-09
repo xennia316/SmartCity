@@ -32,7 +32,7 @@ public class User {
 
                     if (Main.registeredHotels.get(n).town.equals(town)) {
                         count++;
-                        System.out.println("Available Hotels: \n");
+                        System.out.println("Available Hotels include: \n");
                         System.out.println(n + 1 + ". " + Main.registeredHotels.get(n).name + "\n" + "Town: "
                                 + Main.registeredHotels.get(n).town);
                     }
